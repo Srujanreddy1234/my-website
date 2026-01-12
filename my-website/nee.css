@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #eef2ff, #f8fafc);
+}
+
+header {
+    background: #020617;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.news-row {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.news-row:hover {
+    transform: translateY(-6px);
+}
+
+.news-row img {
+    width: 45%;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.news-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+}
+
+.tag {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.world { color: #3226dc; }
+.india { color: #16a34a; }
+.tech { color: #2563eb; }
+
+.btn {
+    padding: 12px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    background:#dc2626;
+    color:white;
+}
+
+.btn:hover {
+    background:#991b1b;
+}
+
+footer {
+    background: #020617;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
